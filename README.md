@@ -5,7 +5,7 @@ A very tiny Clojure library to easily interoperate with java json object. Conver
 ## Usage
 
 Available via [clojars](https://clojars.org/com.enterpriseweb/clj-java-json-utils)   
-Stable version: [com.enterpriseweb/clj-java-json-utils "0.1.0"] 
+Stable version: [com.enterpriseweb/clj-java-json-utils "0.1.1"] 
 
 ## Testing
 So far it uses midje but can use clojure.test also. 
