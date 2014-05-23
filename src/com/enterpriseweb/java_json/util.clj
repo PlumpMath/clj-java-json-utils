@@ -1,6 +1,7 @@
+; these utilities (hoping this set of fns are growing soon) are thought to
+; help on having a good/easy interop with java class and using intensively json
 (ns com.enterpriseweb.java-json.util
   (:require [clojure.data.json :as clj-json]
-            [com.enterpriseweb.java-json.protocol :refer :all]
             [com.enterpriseweb.java-json.tools :refer :all])
   (:import [org.json JSONObject]))
 
