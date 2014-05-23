@@ -2,10 +2,10 @@
   (:require [clojure.data.json :as clj-json])
   (:import [org.json JSONObject]))
 
-(defn create-java-json-object [clojure-json-object]
+(defn- create-java-json-object [clojure-json-object]
   (JSONObject. (str clojure-json-object)))
 
-(defn create-java-json
+(defn- create-java-json
   ([clojure-json]
      (create-java-json-object clojure-json))
   ([clojure-json & ks]
